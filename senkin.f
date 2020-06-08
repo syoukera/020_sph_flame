@@ -399,12 +399,12 @@ C
          CALL SENS13 (RCONV, ICASE, NSYS, KK, II, DELT, TSTOP, TIM,
      1                PATM, TLIM, LOUT, LSAVE, LIGN, LSENS, LIDAS,
      2                LRDAS, LSDAS, Z, ZP, DWORK, IDWORK, SDWORK, RPAR,
-     3                IPAR, ATOL, RTOL, TOLS, XMOL, KSYM)
+     3                IPAR, ATOL, RTOL, TOLS, XMOL, KSYM, MAKE_OUTPUT)
       ELSEIF (ICASE .EQ. 3) THEN
          CALL SENS13 (RVOLT, ICASE, NSYS, KK, II, DELT, TSTOP, TIM,
      1                PATM, TLIM, LOUT, LSAVE, LIGN, LSENS, LIDAS,
      2                LRDAS, LSDAS, Z, ZP, DWORK, IDWORK, SDWORK, RPAR,
-     3                IPAR, ATOL, RTOL, TOLS, XMOL, KSYM)
+     3                IPAR, ATOL, RTOL, TOLS, XMOL, KSYM, MAKE_OUTPUT)
       ELSEIF (ICASE .EQ. 4) THEN
          CALL SENS45 (RCONT, ICASE, NSYS, II, DELT, TSTOP, TIM, PATM,
      1                TLIM, LOUT, LSAVE, LIGN, LSENS, LIDAS, LRDAS,
